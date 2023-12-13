@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Shippori+Mincho:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+header, section {
+  border-bottom: #282828 1px solid;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+   display: inline;
+}
+
+a {
+  margin-right: 70px;
+  padding: 10px 20px;
+  text-decoration: underline;
+  color: #282828;
+}
+
+a:hover {
+  background-color: #282828;
+  color: white;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+p {
+  text-align: left;
+  max-width: 650px;
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+.color_item {
+  display: inline-block;
+  margin: 0px 100px;
+}
+
+.color {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.Gray {
+  background-color: #282828;
+}
+
+.Crimson {
+  background-color: #EE0903;
+}
+
+.Cyan {
+  background-color: #50a5ac;
+}
+
+.Mincho {
+  font-family: 'Shippori Mincho', serif;
+}
+
+
+
